@@ -11,9 +11,6 @@
 </head>
 
 <body>
-    <!-- <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-    </nav> -->
     <section>
         <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
             <a class="navbar-brand" href="#">Itinera</a>
@@ -24,9 +21,9 @@
                 <div class="navbar-nav">
                     <a href="home.html" class="nav-item nav-link">Home</a>
                     <a href="rota.html" class="nav-item nav-link">Nova Rota</a>
-                    <a href="Navegação" class="nav-item nav-link">Navegação</a>
-                    <a href="Histórico" class="nav-item nav-link">Histórico</a>
-                    <a href="Suporte" class="nav-item nav-link">Suporte</a>
+                    <a href="veiculo.html" class="nav-item nav-link">Cadastrar veículo</a>
+                    <a href="suporte.html" class="nav-item nav-link">Suporte</a>
+                    <a href="index.html" class="nav-item nav-link">Logout</a>
                 </div>
             </div>
         </nav>
@@ -52,6 +49,7 @@
                             </div>
                             <button type="submit" class="btn btn-primary">Login</button>
                             <button class="btn btn-primary">Esqueci a senha</button>
+                            <a href="registro.html">Criar usuário</a>
                         </form>
                     </div>
                 </div>
@@ -68,6 +66,13 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+    <script>
+        // Add a click event listener to the button
+        document.getElementById("redirectButton").addEventListener("click", function () {
+            // Change the window location to the desired HTML page
+            window.location.href = registro.html; // Replace with your page's URL
+        });
+    </script>
 </body>
 
 </html>

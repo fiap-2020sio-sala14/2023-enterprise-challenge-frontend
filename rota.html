@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Navbars</title>
+    <title>Rota</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="app.css">
@@ -24,37 +24,34 @@
                 <div class="navbar-nav">
                     <a href="home.html" class="nav-item nav-link">Home</a>
                     <a href="rota.html" class="nav-item nav-link">Nova Rota</a>
-                    <a href="Navegação" class="nav-item nav-link">Navegação</a>
-                    <a href="Histórico" class="nav-item nav-link">Histórico</a>
-                    <a href="Suporte" class="nav-item nav-link">Suporte</a>
+                    <a href="veiculo.html" class="nav-item nav-link">Cadastrar veículo</a>
+                    <a href="suporte.html" class="nav-item nav-link">Suporte</a>
+                    <a href="index.html" class="nav-item nav-link">Logout</a>
+
                 </div>
             </div>
         </nav>
     </section>
 
     <div class="container mt-5">
-        <h1>Select Destination</h1>
+        <h1>Selecionar Destino</h1>
 
-        <!-- Static map image (dummy data) -->
-        <img src="https://via.placeholder.com/400x400" alt="Static Map" class="img-fluid mb-3">
+        <img src="maps.png" alt="Static Map" class="img-fluid mb-3">
 
-        <!-- Destination input (dummy data) -->
         <div class="form-group">
-            <label for="destination">Selected Destination:</label>
+            <label for="destination">Destino selecionado:</label>
             <input type="text" class="form-control" id="destination" value="123 Main Street, Cityville">
         </div>
 
-        <!-- Dummy data for the trip details -->
-        <h3>Trip Details</h3>
+        <h3>Detalhes</h3>
         <ul>
-            <li><strong>Origin:</strong> São Paulo, Brazil</li>
-            <li><strong>Destination:</strong> 123 Main Street, Cityville</li>
-            <li><strong>Duration:</strong> 4 hours</li>
-            <li><strong>Distance (km):</strong> 434 km</li>
+            <li><strong>Origem:</strong> São Paulo, Brazil</li>
+            <li><strong>Destino:</strong> 123 Main Street, Cityville</li>
+            <li><strong>Duração:</strong> 4 hours</li>
+            <li><strong>Distância (km):</strong> 434 km</li>
         </ul>
     </div>
 
-    <!-- Include Bootstrap JS and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
